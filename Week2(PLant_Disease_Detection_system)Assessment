@@ -1,0 +1,8 @@
+#Week 2
+
+In this week of the Plant Disease Detection System, I mounted Google Drive to access a zipped dataset of plant disease images. The dataset was successfully extracted using Python’s zipfile module.
+
+Next, I utilized TensorFlow's ImageDataGenerator to preprocess the image data from the training directory. Images were resized to 224x224 pixels, normalized (rescaled), and augmented with random rotations. A 10% validation split was applied.
+
+Finally, I visualized a batch of 16 sample images along with their corresponding class labels to confirm successful data loading and label mapping.
+
